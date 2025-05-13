@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrossel{
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel button{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    z-index: 1000;
+}
+.carrossel button:nth-child(1){
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.carrossel button:nth-child(2){
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.carrossel .imagens{
+    display: flex;
+    width: 300vw;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.carrossel .imagens .img{
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carrossel .imagens .img:nth-child(1){
+    background-image: url(./img/banner-1.jpg);
+}
+.carrossel .imagens .img:nth-child(2){
+    background-image: url(./img/banner-2.jpg);
+}
+.carrossel .imagens .img:nth-child(3){
+    background-image: url(./img/banner-3.jpg);
+}
