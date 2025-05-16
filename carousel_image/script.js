@@ -1,21 +1,39 @@
-let indiceAtual = 0
-const imagens = document.querySelectorAll('.carrossel .imagens .img')
-let total = imagens.length
 const container = document.querySelector('.carrossel .imagens')
+const img = document.querySelectorAll('.carrossel .imagens .img')
+const totalImg = img.length
+let indiceAtual = 0
 
-console.log('Carrossel iniciado.')
-console.log('Total de slides:', total)
+let interval = setInterval(nextImg, 3000)
 
-setInterval(() => {
-    console.log('=================================')
-    console.log('Antes',indiceAtual)
-
-    indiceAtual = (indiceAtual + 1) % total
-
-    console.log('Depois:', indiceAtual)
-
+// Função responsável por efetuar o deslocamento do container
+function atualizarCarrossel() {
     const deslocamento = -indiceAtual * 100
     container.style.transform = `translateX(${deslocamento}vw)`
+}
 
-    console.log(`Movendo o carrossel para: ${deslocamento}vw`)
-}, 3000)
+function resetInterval(){
+    clearInterval(interval)
+    interval = setInterval(nextImg, 3000)
+}
+
+function nextImg() {
+    indiceAtual = (indiceAtual + 1) % totalImg
+    atualizarCarrossel()
+    resetInterval()
+}
+
+function backImg() {
+    indiceAtual = (indiceAtual - 1 + totalImg) % totalImg
+    atualizarCarrossel()
+    resetInterval()
+}
+
+// Pausar quando o mouse estiver sobre o carrossel
+container.addEventListener('mouseenter', () => {
+    clearInterval(interval)
+})
+
+// Retomar quando o mouse sair do carrossel
+container.addEventListener('mouseleave', () => {
+    resetInterval()
+})
