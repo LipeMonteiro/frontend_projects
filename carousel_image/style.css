@@ -40,7 +40,7 @@
 }
 .carrossel .imagens{
     display: flex;
-    width: 300vw;
+    width: 500vw;
     height: 100%;
     transition: transform 0.5s ease-in-out;
 }
@@ -59,6 +59,12 @@
 }
 .carrossel .imagens .img:nth-child(3){
     background-image: url(./img/banner-3.jpg);
+}
+.carrossel .imagens .img:nth-child(4){
+    background-image: url(./img/banner-4.jpg);
+}
+.carrossel .imagens .img:nth-child(5){
+    background-image: url(./img/banner-5.jpg);
 }
 .carrossel .controls {
     position: absolute;
