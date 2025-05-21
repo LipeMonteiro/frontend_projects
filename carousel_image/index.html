@@ -5,25 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Carousel</title>
 </head>
 
 <body>
     <div class="carrossel">
-        <button type="button" id="btnNext" onClick="nextImg()">Next</button>
-        <button type="button" id="btnBack" onclick="backImg()">Back</button>
+        <button type="button" id="btnNext" onClick="nextImg()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+        <button type="button" id="btnBack" onclick="backImg()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </button>
         <div class="imagens">
             <div class="img"></div>
             <div class="img"></div>
             <div class="img"></div>
+        </div>
+        <div class="controls">
+            <input type="radio" name="img" id="ctrl-1" class="ctrl">
+            <input type="radio" name="img" id="ctrl-2" class="ctrl">
+            <input type="radio" name="img" id="ctrl-3" class="ctrl">
         </div>
     </div>
 
 
 
     <!-- SCRIPT JS -->
-
     <script src="script.js"></script>
 </body>
 
