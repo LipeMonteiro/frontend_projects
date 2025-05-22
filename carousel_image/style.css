@@ -5,7 +5,7 @@
 }
 .carrossel{
     width: 100vw;
-    height: 600px;
+    height: 50vh;
     overflow: hidden;
     position: relative;
 }
