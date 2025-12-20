@@ -1,3 +1,6 @@
+
+<img src="./assets/image.png" alt="Imagem do projeto" width="500">
+
 # 🎨 Cards de serviços
 
 Um componente de grade de serviços moderno e responsivo, construído com HTML e CSS puro. O projeto apresenta cards elegantes com efeitos de interatividade e ícones personalizados.
@@ -52,4 +55,4 @@ Este projeto foi fundamental para praticar:
 * **E-mail:** contato@filipemonteiro.com
 
 ---
-⭐️ **Gostou do que viu? Sinta-se à vontade para deixar uma star!**
+⭐️ **Gostou do que viu? Sinta-se à vontade para deixar uma star!**retore --staged
