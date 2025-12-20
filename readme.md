@@ -42,7 +42,7 @@ Se você é desenvolvedor e usa o VS Code, recomendo a extensão **Live Server**
 
 ## 📫 Contato
 
-* **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
+* **LinkedIn:** [Filipe Monteiro](https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
 * **E-mail:** contato@filipemonteiro.com
 
 ---
