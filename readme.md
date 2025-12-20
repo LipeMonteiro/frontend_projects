@@ -16,7 +16,7 @@ Este repositório utiliza o que há de mais moderno no ecossistema web:
 | Projeto | Descrição | Status | Deploy |
 | :--- | :--- | :--- | :--- |
 | **Carrossel de imagens** | Carrosel de imagens com botões de controle | 🏗️ Em progresso | [Visualizar](https://github.com/LipeMonteiro/frontend_projects/tree/master/carousel_image) |
-| **Cards de serviços** | Página de serviços separados por cards responsivos. | ✅ Concluído | [Visualizar](https://github.com/LipeMonteiro/frontend_projects/tree/master/services_cards.git) |
+| **Cards de serviços** | Página de serviços separados por cards responsivos. | ✅ Concluído | [Visualizar](https://github.com/LipeMonteiro/frontend_projects/tree/master/services_cards) |
 
 ---
 
