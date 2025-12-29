@@ -51,7 +51,7 @@ Este projeto foi fundamental para praticar:
 
 ## 📫 Contato
 
-* **LinkedIn:** Filipe Monteiro(https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
+* **LinkedIn:** [Filipe Monteiro](https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
 * **E-mail:** contato@filipemonteiro.com
 
 ---
