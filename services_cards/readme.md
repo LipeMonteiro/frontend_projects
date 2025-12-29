@@ -6,7 +6,7 @@ Um componente de grade de serviços moderno e responsivo, construído com HTML e
 
 ## 🚀 Demonstração
 
-<img src="./assets/image.png" alt="Imagem do projeto" width="500">
+<img src="./assets/image.png" alt="Imagem do projeto" width="700">
 
 O projeto consiste em uma seção de serviços que se adapta automaticamente a diferentes tamanhos de tela, utilizando um layout escuro (*Dark Mode*) com detalhes em azul neon.
 
