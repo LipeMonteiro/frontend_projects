@@ -49,7 +49,7 @@ Este projeto foi fundamental para praticar conceitos intermediários de Frontend
 
 ## 📫 Contato
 
-* **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
+* **LinkedIn:** [Filipe Monteiro](https://www.linkedin.com/in/filipe-monteiro-208b8b326/)
 * **E-mail:** contato@filipemonteiro.com
 
 ---
