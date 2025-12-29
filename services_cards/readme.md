@@ -1,6 +1,3 @@
-
-<img src="./assets/image.png" alt="Imagem do projeto" width="500">
-
 # 🎨 Cards de serviços
 
 Um componente de grade de serviços moderno e responsivo, construído com HTML e CSS puro. O projeto apresenta cards elegantes com efeitos de interatividade e ícones personalizados.
@@ -8,6 +5,8 @@ Um componente de grade de serviços moderno e responsivo, construído com HTML e
 ---
 
 ## 🚀 Demonstração
+
+<img src="./assets/image.png" alt="Imagem do projeto" width="500">
 
 O projeto consiste em uma seção de serviços que se adapta automaticamente a diferentes tamanhos de tela, utilizando um layout escuro (*Dark Mode*) com detalhes em azul neon.
 
