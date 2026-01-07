@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="shortcut icon" href="./assets/clock.png" type="image/x-icon">
+    <!-- ========== STYLE CSS ========== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ========== BOX ICONS ========== -->
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="timer">
+            <!-- Display -->
+            <div class="timer__display">
+                00:00:00
+            </div>
+            <!-- Botões  -->
+            <div class="timer__controls">
+                <button class="timer__button">
+                    <i class='bx bx-play timer__button-icon'></i>
+                </button>
+                <button class="timer__button timer__button--hide">
+                    <i class='bx bx-stop timer__button-icon'></i>
+                </button>
+                <button class="timer__button" disabled>
+                    <i class='bx bx-undo timer__button-icon'></i>
+                </button>
+                <button class="timer__button" disabled>
+                    <i class='bx bx-flag-alt timer__button-icon'></i>
+                </button>
+            </div>
+            <!-- Marcações -->
+            <div class="timer__marks"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
