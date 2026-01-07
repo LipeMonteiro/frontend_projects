@@ -1,12 +1,12 @@
 # ⏱️ Cronômetro em JavaScript
 
-<img src="./assets/image.png" alt="Imagem do projeto Cronômetro" width="500">
-
 Projeto de um **cronômetro digital interativo**, desenvolvido com **HTML, CSS e JavaScript puro**, com foco em lógica de programação, manipulação do DOM e controle de tempo utilizando `setInterval`.
 
 ---
 
 ## 🚀 Demonstração
+
+<img src="./assets/image.png" alt="Imagem do projeto Cronômetro" width="500">
 
 O projeto consiste em um cronômetro funcional que permite ao usuário:
 
