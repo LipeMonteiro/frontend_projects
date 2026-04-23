@@ -27,7 +27,7 @@ body {
 
 .card {
     /* flex-basis: 304px, faz com que os cards encolham até 304 */
-    flex: 1 1 304px; 
+    flex: 1 1 304px;
     max-width: 366px;
     height: 239px;
     padding: 24px;
@@ -42,7 +42,7 @@ body {
 
 .card:hover {
     border-color: #08265e;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .card__box-img {
