@@ -66,15 +66,22 @@ links.forEach((element, index) => {
 ### 2️⃣ Adicionando o evento de clique
 ---
 
-Para cada link, adicionamos um `addEventListener("click")`:
+Para cada link, adicionamos um `addEventListener("click", (e) => {})` . Isso faz com que quando click acontece, a função é executada e o navegador passa automaticamente o objeto do evento como argumento da função.:
 
 ``` js
 links.forEach((element, index) => {
-  element.addEventListener("click", () => {
+  element.addEventListener("click", (e) => {
 
   });
 });
 ```
+
+O `e` é o **objeto do evento**
+
+Sempre que um evento é disparado, o navegador cria automaticamente um objeto com todas as informações sobre aquele evento e passa esse evento como argumento para função
+
+poderia ser chamado de qualquer nome, mas convencionalmente chamamos de `e` ou `event` .
+
 ### 3️⃣ Animação do underline
 ------------------------------------------------------------------------
 
@@ -91,12 +98,15 @@ Esses valores são obtidos a partir do link clicado:
 ``` js
 const line = document.querySelector(".line");
 
-line.style.width = element.offsetWidth + "px";
-line.style.left = element.offsetLeft + "px";
+line.style.width = e.target.offsetWidth + "px";
+line.style.left = e.target.offsetLeft + "px";
 ```
 
-> Observação: como estamos dentro do `forEach`, usamos `element`, não
-> `e.target`.
+Dentro do objeto do evento `e` , existe a propriedade `target` que representa o elemento que foi clicado.
+
+A partir desse elemento, conseguimos pegar sua largura e posicionamento usando o `offsetWidth` e o `offsetLeft` e passar isso para o underline (`line`).
+
+Em casos onde o link possui elementos filhos, pode ser mais seguro utilizar `e.currentTarget`, pois ele sempre representa o elemento que recebeu o `addEventListener`.
 
 ### 4️⃣ Controle da classe `.active`
 ------------------------------------------------------------------------

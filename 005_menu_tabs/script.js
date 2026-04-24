@@ -1,12 +1,12 @@
 let links = document.querySelectorAll(".link");
 
 links.forEach((element, index) => {
-    element.addEventListener("click", () => {
+    element.addEventListener("click", (e) => {
         
         //Animação do underline
         let line = document.querySelector(".line");
-        line.style.width = element.target.offsetWidth + "px";
-        line.style.left = element.target.offsetLeft + "px";
+        line.style.width = e.target.offsetWidth + "px";
+        line.style.left = e.target.offsetLeft + "px";
 
         //Remove a classe active de todos os links
         links.forEach(link => {link.classList.remove("active");});
